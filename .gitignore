@@ -1,0 +1,33 @@
+### IDE
+.idea/
+
+### Environement
+.env
+
+### Cache, session files and logs (Symfony4)
+/var/
+
+### Managed by Composer
+/vendor/
+
+### Symfony : Assets and user uploads
+/public/bundles/
+/public/uploads/
+
+
+### PHPUnit
+/phpunit.xml
+
+### NodeJS - NPM - YARN
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+coverage/
+
+### Front
+public/build/
+
+### symfony/phpunit-bridge
+.phpunit
+phpunit.xml
