@@ -1,6 +1,6 @@
 api_platform:
-    title: 'Astronaut API'
-    description: 'This is an astronaut api'
+    title: 'Bouledogue français API'
+    description: 'This is an Bouledogue français api'
     version: '0.1.0'
     enable_nelmio_api_doc: true
     mapping:
