@@ -19,7 +19,7 @@ export default {
     Message,
   },
 	mounted() {
-		fetch('api/astronauts/1.json')
+		fetch('api/users/1.json')
 			.then((response) => response.json())
 			.then((data) => this.message = `Welcome ${data.name}`)
   },

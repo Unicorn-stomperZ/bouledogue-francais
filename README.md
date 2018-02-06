@@ -19,28 +19,29 @@ cp .env.dist .env
 ```
 
 ```dotenv
-# DATABASE
-POSTGRES_DB=                This is name of database
-POSTGRES_USER=              This is user of database
-POSTGRES_PASSWORD=          This is password of database
-POSTGRES_PORT=              This is the port of used by postgreSQL
-
-# PORT WEB
-WEB_PORT=                   This is web port of website
-ELK_PORT=                   This is port of ELK
+# APP
+APP_DIR=/var/www/symfony
 
 # SYMFONY
-SECRET=                     This is the secret of Symfony
+APP_ENV=dev
+APP_DEBUG=1
+APP_SECRET=93174013057b1e458ff58ae5f158a0f1
 
-#SMTP
-SMTP_USER=                  This is username of mail server
-SMTP_PASSWORD=              This is password of mail server
-SMTP_HOST=                  This is host of mail server
-SMTP_TRANSPORT=             This is protocol transport of mail server
+# NODE
+NODE_ENV=development
+
+# DATABASE
+POSTGRES_HOST=postgres
+POSTGRES_DB=db
+POSTGRES_USER=user
+POSTGRES_PASSWORD=password
+POSTGRES_PORT=5432
+
+# PORT WEB
+WEB_PORT=81
 
 #REDIS
-REDIS_DSN=                  This is DNS of Redis
-
+REDIS_HOST=redis
 ```
 
 # Initialize project
